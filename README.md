@@ -1,24 +1,36 @@
-# README
+# Rails with Laravel Mix
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RailsでLaravel Mixを使う
 
-Things you may want to cover:
+## 開発環境構築
 
-* Ruby version
+### ツール
+* Docker, docker-compose
 
-* System dependencies
+#### アプリケーションの構築
+```
+# 初回
+make build
 
-* Configuration
+# server を起動
+make serve
 
-* Database creation
+# bundle install
+make bundler
 
-* Database initialization
+# Assets Compile
+make yarn_dev
 
-* How to run the test suite
+# rails command
+make console
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+http://localhost:3000 にアクセス
 
-* Deployment instructions
-
-* ...
+## 技術スタック
+* Docker
+* docker-compose
+* ruby:2.5.1
+* Rails 5.2.0
+* postgresql:10
+* redis:4
