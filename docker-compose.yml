@@ -28,7 +28,13 @@ services:
       POSTGRES_PASSWORD: postgres
     volumes:
       - db-volume:/var/lib/postgresql/data
-
+  yarn:
+    build:
+      context: .
+      dockerfile: Dockerfile.yarn
+    volumes:
+    - .:/app
+    - node-modules-volume:/app/node_modules
   redis:
     image: redis:4.0-alpine
     ports:
@@ -37,3 +43,4 @@ services:
 volumes:
   bundle-volume:
   db-volume:
+  node-modules-volume:
