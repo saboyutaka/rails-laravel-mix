@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: churacari_development
+  database: rl_mix_development
 
 test:
   <<: *default
-  database: churacari_test
+  database: rl_mix_test
 
 production:
   <<: *default
-  database: churacari_production
+  database: rl_mix_production
