@@ -2,6 +2,9 @@
 
 RailsでLaravel Mixを使う
 
+[RailsでLaravel Mix(webpack)を使って15分でES6を書きはじめる - Qiita](https://qiita.com/saboyutaka/items/8efbb7778993599e52de)
+
+
 ## 開発環境構築
 
 ### ツール
@@ -34,3 +37,6 @@ http://localhost:3000 にアクセス
 * Rails 5.2.0
 * postgresql:10
 * redis:4
+* node:10
+* yarn
+* laravel-mix 4.0
