@@ -15,17 +15,8 @@ RailsでLaravel Mixを使う
 # 初回
 make build
 
-# server を起動
+# rails s を起動
 make serve
-
-# bundle install
-make bundler
-
-# Assets Compile
-make yarn_dev
-
-# rails command
-make console
 ```
 
 http://localhost:3000 にアクセス
