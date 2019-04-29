@@ -24,7 +24,7 @@ http://localhost:3000 にアクセス
 ## 技術スタック
 * Docker
 * docker-compose
-* ruby:2.5.1
+* ruby:2.6.3
 * Rails 6.0.0 rc1
 * postgresql:10
 * redis:4
